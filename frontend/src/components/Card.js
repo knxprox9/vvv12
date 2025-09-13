@@ -545,6 +545,7 @@ const UiverseWrapper = styled.div`
 
   & .circle-blue {
     border-color: #3b82f6;
+    box-shadow: 0 0 0 2px rgba(59,130,246,0.10);
   }
 
   & .circle-orange {
