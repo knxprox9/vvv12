@@ -502,7 +502,7 @@ const UiverseWrapper = styled.div`
     word-spacing: -0.5px;
     white-space: normal;
     display: inline-block;
-    transform: scale(1.2);
+    transform: scale(1.12);
     transform-origin: right center;
   }
 
