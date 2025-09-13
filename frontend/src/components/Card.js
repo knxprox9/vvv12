@@ -488,7 +488,7 @@ const UiverseWrapper = styled.div`
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    transform: scale(1.15);
+    transform: scale(1.08);
     transform-origin: right center;
   }
 
