@@ -462,8 +462,9 @@ const UiverseWrapper = styled.div`
 
   & .service-row {
     display: flex;
-    align-items: flex-start;
-    gap: 1px;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
     background: rgba(255, 255, 255, 0.9);
     padding: 8px 4px;
     border-radius: 6px;
@@ -472,6 +473,7 @@ const UiverseWrapper = styled.div`
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 104px;
     min-height: auto;
+    text-align: center;
   }
 
   & .service-content {
