@@ -499,6 +499,9 @@ const UiverseWrapper = styled.div`
     margin-left: 0px;
     word-spacing: -0.5px;
     white-space: normal;
+    display: inline-block;
+    transform: scale(1.2);
+    transform-origin: right center;
   }
 
   & .service-item {
