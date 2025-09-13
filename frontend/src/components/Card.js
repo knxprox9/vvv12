@@ -524,7 +524,7 @@ const UiverseWrapper = styled.div`
     padding-right: 8px; /* مساحة إضافية من الحافة اليمنى (RTL) */
     display: grid;
     grid-template-columns: 8px auto;
-    column-gap: 3px; /* تقليل المسافة بين النقطة والنص أكثر */
+    column-gap: 2px; /* تقليل المسافة بين النقطة والنص أكثر */
     align-items: center;
     width: 100%;
     transform: scale(1.08);
