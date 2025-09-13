@@ -548,15 +548,19 @@ const UiverseWrapper = styled.div`
   & .service-icon {
     font-size: 18px;
     min-width: 14px;
-    margin-top: -2px;
     line-height: 1;
     vertical-align: top;
     display: inline-flex;
     align-items: center;
+    justify-content: center;
     color: #6366f1;
     filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.4));
     animation: pulse-glow 2s ease-in-out infinite alternate;
     transition: all 0.3s ease;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: rgba(99,102,241,0.05);
   }
 
   & .service-icon:hover {
