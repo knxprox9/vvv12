@@ -88,7 +88,9 @@ const Card = () => {
                       </span>
                       <div className="service-content">
                         <div className="service-title">توافق عالمي</div>
-                        <div className="service-description">متوافقة مع اغلب المنصات والتطبيقات والمواقع</div>
+                        <div className="service-item"><span className="item-circle circle-green"></span>منصات</div>
+                        <div className="service-item"><span className="item-circle circle-blue"></span>تطبيقات</div>
+                        <div className="service-item"><span className="item-circle circle-orange"></span>مواقع</div>
                       </div>
                     </div>
                     <div className="service-row">
