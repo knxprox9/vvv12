@@ -515,7 +515,7 @@ const UiverseWrapper = styled.div`
     display: inline-flex;
     align-items: center;
     gap: 3px;
-    transform: scale(1.15);
+    transform: scale(1.08);
     transform-origin: right center;
   }
 
