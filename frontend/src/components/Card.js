@@ -481,11 +481,12 @@ const UiverseWrapper = styled.div`
   }
 
   & .service-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-    flex: 1;
+    display: grid;
+    grid-template-rows: auto auto auto auto; /* عنوان + ثلاث عناصر */
+    align-items: start;
+    justify-items: start;
+    gap: 6px;
+    width: 100%;
   }
 
   & .service-title {
