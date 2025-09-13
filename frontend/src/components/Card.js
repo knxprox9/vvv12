@@ -577,6 +577,22 @@ const UiverseWrapper = styled.div`
     transform: scale(1.05);
   }
 
+  & .service-icon::after {
+    content: '';
+    position: absolute;
+    inset: -2px;
+    border-radius: 50%;
+    background: radial-gradient(120% 120% at 50% 50%, rgba(99,102,241,0.10), rgba(99,102,241,0.0) 60%);
+    pointer-events: none;
+    filter: blur(0.2px);
+    animation: icon-aura 3.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes icon-aura {
+    0%   { opacity: .45; transform: scale(1); }
+    100% { opacity: .65; transform: scale(1.03); }
+  }
+
   & .icon-categories {
     color: #6366f1;
     position: relative;
