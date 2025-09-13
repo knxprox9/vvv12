@@ -559,13 +559,17 @@ const UiverseWrapper = styled.div`
     align-items: center;
     justify-content: center;
     color: #6366f1;
-    filter: drop-shadow(0 0 6px rgba(99, 102, 241, 0.4));
-    animation: pulse-glow 2s ease-in-out infinite alternate;
-    transition: all 0.3s ease;
+    position: relative;
     width: 28px;
     height: 28px;
     border-radius: 50%;
-    background: rgba(99,102,241,0.05);
+    background: radial-gradient(130% 130% at 30% 20%, rgba(255,255,255,0.80), rgba(255,255,255,0.35) 60%, rgba(255,255,255,0.15) 100%);
+    border: 1px solid rgba(255,255,255,0.85);
+    box-shadow:
+      0 1px 0 rgba(255,255,255,0.7) inset,
+      0 0 0 1px rgba(2,6,23,0.04),
+      0 8px 14px rgba(2,6,23,0.06);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
   }
 
   & .service-icon:hover {
