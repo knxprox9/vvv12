@@ -479,6 +479,7 @@ const UiverseWrapper = styled.div`
   & .service-content {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 3px;
     flex: 1;
   }
