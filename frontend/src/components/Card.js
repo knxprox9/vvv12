@@ -56,7 +56,7 @@ const Card = () => {
         <div className="content">
           {/* كود مُضاف كما هو بالضبط، بدون أي تغيير في المكونات أو الأسماء */}
           <UiverseWrapper>
-            <div className="card">
+            <div className="card inner-card">
               <div className="img-container">
                 <div className="services-data">
                   <div className="column-one">
