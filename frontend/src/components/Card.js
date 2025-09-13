@@ -431,6 +431,10 @@ const UiverseWrapper = styled.div`
     color: aliceblue;
   }
 
+  & .inner-card {
+    min-height: 360px;
+  }
+
 
 
   & .services-data {
