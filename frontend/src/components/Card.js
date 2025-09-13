@@ -550,6 +550,7 @@ const UiverseWrapper = styled.div`
 
   & .circle-orange {
     border-color: #f59e0b;
+    box-shadow: 0 0 0 2px rgba(245,158,11,0.10);
   }
 
   & .service-icon {
