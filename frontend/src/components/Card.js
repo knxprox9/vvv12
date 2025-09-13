@@ -510,9 +510,11 @@ const UiverseWrapper = styled.div`
     font-weight: 600;
     line-height: 1.3;
     padding-right: 4px;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 3px;
+    transform: scale(1.15);
+    transform-origin: right center;
   }
 
   & .item-circle {
