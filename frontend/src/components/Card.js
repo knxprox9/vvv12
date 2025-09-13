@@ -521,10 +521,10 @@ const UiverseWrapper = styled.div`
     font-size: 10px;
     font-weight: 600;
     line-height: 1.3;
-    padding-right: 0px;
+    padding-right: 8px; /* مساحة إضافية من الحافة اليمنى (RTL) */
     display: grid;
     grid-template-columns: 8px auto;
-    column-gap: 6px;
+    column-gap: 4px; /* تقليل المسافة بين النقطة والنص */
     align-items: center;
     width: 100%;
     transform: scale(1.08);
